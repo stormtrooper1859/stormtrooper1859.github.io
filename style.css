@@ -200,6 +200,8 @@ html {
     display: inline-block;
     vertical-align: middle;
 
+
+
     /* width: 213px; */
     /* height: 16px; */
     font-family: Helvetica;
@@ -343,10 +345,20 @@ html {
 
 
 
-.check {
-    margin: auto 10px auto 20px ;
+.cbw {
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 43px;
+    padding: auto 10px auto 20px ;
+
+
+    /* margin: auto 10px auto 20px ; */
     /* display: inline-block; */
     /* vertical-align: middle; */
+}
+
+.check {
+    margin: auto 10px auto 20px;
 }
 
 .icon {
