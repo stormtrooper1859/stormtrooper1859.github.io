@@ -5,8 +5,8 @@
             "name": "Alex",
             "email": "sasha@example.com"
         },
-        "topic" : "clever",
-        "data" : "<img class=\"message__image\" src=\"images/peepoClown.png\" alt=\"peepoClown image\" width=\"240\" height=\"240\">\n\n        Message: very clever text dlya proverki obtekaemosti\n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ",
+        "topic" : "привет",
+        "data" : "привет)",
         "date" : "15.09.09"
     },
     {
@@ -15,16 +15,17 @@
             "name": "Anna",
             "email": "anna@example.com"
         },
-        "data" : "привет2",
+        "topic" : "Re: привет",
+        "data" : "Добрый вечер",
         "date" : "17.09.09"
     },
     {
         "id" : "3",
         "sender": {
             "name": "Контест2",
-            "email": "anna@example.com"
+            "email": "contest2@example.com"
         },
-        "topic": "Результаты",
+        "topic": "Результаты2",
         "data" : "К сожалению вы прошли в следующий этап.",
         "date" : "08.08.18",
         "unread" : "true"
@@ -34,9 +35,9 @@
         "sender": {
             "avatar" : "images/ya-default2.svg",
             "name": "Контест2",
-            "email": "anna@example.com"
+            "email": "contest2@example.com"
         },
-        "topic": "Результаты",
+        "topic": "Результаты 1.25",
         "data" : "К сожалению вы прошли в следующий этап.",
         "date" : "08.08.18"
     },
@@ -45,7 +46,7 @@
         "sender": {
             "avatar" : "images/ya-default.svg",
             "name": "Яндекс.Контест",
-            "email": "anna@example.com"
+            "email": "contest@example.com"
         },
         "topic": "Результаты",
         "data" : "Поздравляем! Вы прошли в следующий этап.",
@@ -55,10 +56,10 @@
         "id" : "6",
         "sender": {
             "name": "Яндекс.Карты",
-            "email": "anna@example.com"
+            "email": "maps@example.com"
         },
-        "topic": "Результаты",
-        "data" : "not so simple msg",
+        "topic": "карты",
+        "data" : "что то про карты",
         "date" : "03.12.18"
     },
     {
@@ -66,9 +67,9 @@
         "sender": {
             "avatar" : "images/ya-default2.svg",
             "name": "Rандекс.Паспорт",
-            "email": "anna@example.com"
+            "email": "pass@example.com"
         },
-        "topic": "Результаты",
+        "topic": "Письмо с неверной ссылкой для аватара",
         "data" : "Письмо с неверной ссылкой для аватара",
         "date" : "06.12.18",
         "unread" : "true"
@@ -78,7 +79,7 @@
         "sender": {
             "avatar" : "images/ya-default.svg",
             "name": "Яндекс.Паспорт",
-            "email": "anna@example.com"
+            "email": "pass@example.com"
         },
         "topic": "Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.",
         "data" : "Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.\n                        Очень большое сообщение которое не помещается в строку.",
@@ -90,7 +91,7 @@
         "sender": {
             "avatar" : "images/peepoClown.png",
             "name": "peepoClown",
-            "email": "anna@example.com"
+            "email": "peepoClown@example.com"
         },
         "topic": "Message: very clever text dlya proverki obtekaemosti",
         "data" : "<img class=\"message__image\" src=\"images/peepoClown.png\" alt=\"peepoClown image\" width=\"240\" height=\"240\">\n\n        Message: very clever text dlya proverki obtekaemosti\n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \n        a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ",
